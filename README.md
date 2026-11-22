@@ -8,11 +8,11 @@ Assistente textual de orientação cidadã, do desafio **CitizenTech**.
 
 ## Equipe
 
-**Nome da equipe:** _[preencher]_
+**Equipe:** projeto individual
 
 | Nome | RM |
 |---|---|
-| _[preencher]_ | _[RM]_ |
+| Arthur Barbosa de Morais | RM573731 |
 
 **Vídeo de apresentação (YouTube, não listado):** _[colar link]_
 

@@ -1,0 +1,48 @@
+{
+  "documentos": {
+    "nome": "Documentos pessoais",
+    "descricao": "Identidade, CPF, certidões, título de eleitor, carteira de trabalho e conta gov.br.",
+    "subtemas": {
+      "identidade": "Carteira de Identidade Nacional (CIN)",
+      "cpf": "Cadastro de Pessoas Físicas (CPF)",
+      "certidoes": "Certidões de registro civil",
+      "eleitoral": "Título de eleitor e voto",
+      "trabalho": "Carteira de Trabalho",
+      "acesso_digital": "Conta gov.br e acesso digital"
+    },
+    "relacionados": ["direitos_sociais", "servicos_comunitarios"]
+  },
+  "consumidor": {
+    "nome": "Direitos do consumidor",
+    "descricao": "Compras, garantia, cobranças indevidas e onde registrar reclamações.",
+    "subtemas": {
+      "compras": "Compras e arrependimento",
+      "garantia": "Garantia e produtos com defeito",
+      "cobrancas": "Cobranças indevidas",
+      "reclamacoes": "Onde reclamar"
+    },
+    "relacionados": ["direitos_sociais", "documentos"]
+  },
+  "direitos_sociais": {
+    "nome": "Direitos e atendimento prioritário",
+    "descricao": "Pessoa idosa, atendimento prioritário e proteção de dados pessoais.",
+    "subtemas": {
+      "pessoa_idosa": "Direitos da pessoa idosa",
+      "prioridade": "Atendimento prioritário",
+      "dados_pessoais": "Proteção de dados pessoais (LGPD)"
+    },
+    "relacionados": ["consumidor", "servicos_comunitarios", "documentos"]
+  },
+  "servicos_comunitarios": {
+    "nome": "Serviços e orientações comunitárias",
+    "descricao": "Emergências, saúde pública, assistência social, denúncias e defesa civil.",
+    "subtemas": {
+      "emergencia": "Telefones de emergência",
+      "saude": "Saúde pública (SUS)",
+      "assistencia_social": "Assistência social e Cadastro Único",
+      "denuncias": "Denúncias de violação de direitos",
+      "defesa_civil": "Defesa civil e alertas"
+    },
+    "relacionados": ["direitos_sociais", "documentos"]
+  }
+}

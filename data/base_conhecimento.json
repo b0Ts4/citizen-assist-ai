@@ -1,0 +1,373 @@
+[
+  {
+    "id": "DOC01",
+    "tema": "documentos",
+    "subtema": "identidade",
+    "pergunta": "O que é a Carteira de Identidade Nacional (CIN) e qual é o número dela?",
+    "palavras_chave": ["carteira de identidade", "identidade", "cin", "rg", "registro geral", "documento de identidade", "nova identidade"],
+    "orientacao": "A Carteira de Identidade Nacional (CIN) substitui o antigo RG e usa o número do CPF como número único de identificação. Ela é emitida pelos órgãos de identificação de cada estado.",
+    "passos": [
+      "Procure o órgão de identificação do seu estado (instituto de identificação ou posto de atendimento).",
+      "Leve a certidão de nascimento ou de casamento e confira no site do órgão estadual a lista completa de documentos.",
+      "Confirme no órgão estadual se há taxa e se é preciso agendar."
+    ],
+    "referencia": {
+      "titulo": "Governo Digital – Carteira de Identidade Nacional (CIN); Decreto nº 10.977/2022, art. 3º",
+      "url": "https://www.gov.br/governodigital/pt-br/identidade/cin/carteira-de-identidade-nacional-cin"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["DOC02", "DOC03"]
+  },
+  {
+    "id": "DOC02",
+    "tema": "documentos",
+    "subtema": "cpf",
+    "pergunta": "Como tirar ou consultar o CPF?",
+    "palavras_chave": ["cpf", "cadastro de pessoas fisicas", "tirar cpf", "consultar cpf", "inscricao cpf", "receita federal"],
+    "orientacao": "A inscrição e a consulta da situação do CPF podem ser feitas gratuitamente pelo site da Receita Federal. O CPF também é o número usado na nova Carteira de Identidade Nacional.",
+    "passos": [
+      "Acesse a página 'Meu CPF' da Receita Federal.",
+      "Escolha 'Inscrever-se no CPF' ou 'Consultar CPF'.",
+      "Desconfie de sites ou pessoas que cobram por esse serviço."
+    ],
+    "referencia": {
+      "titulo": "Receita Federal – Meu CPF",
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["DOC01", "DOC06"]
+  },
+  {
+    "id": "DOC03",
+    "tema": "documentos",
+    "subtema": "certidoes",
+    "pergunta": "A certidão de nascimento é gratuita?",
+    "palavras_chave": ["certidao de nascimento", "registro de nascimento", "registrar bebe", "certidao", "cartorio", "registro civil"],
+    "orientacao": "O registro civil de nascimento e a primeira certidão de nascimento são gratuitos para todas as pessoas, conforme a Lei nº 9.534/1997. O registro é feito em cartório de registro civil.",
+    "passos": [
+      "Procure um cartório de registro civil (alguns hospitais e maternidades têm posto de registro).",
+      "Leve os documentos dos pais e a Declaração de Nascido Vivo (DNV) entregue pela maternidade.",
+      "Segundas vias podem ter custo; confirme no cartório."
+    ],
+    "referencia": {
+      "titulo": "Lei nº 9.534/1997 (altera o art. 30 da Lei nº 6.015/1973)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9534.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["DOC01"]
+  },
+  {
+    "id": "DOC04",
+    "tema": "documentos",
+    "subtema": "eleitoral",
+    "pergunta": "Quem é obrigado a tirar título de eleitor e votar?",
+    "palavras_chave": ["titulo de eleitor", "titulo", "votar", "voto", "eleitor", "alistamento eleitoral", "obrigatorio votar", "eleicao"],
+    "orientacao": "Pela Constituição Federal (art. 14), o alistamento eleitoral e o voto são obrigatórios para maiores de 18 anos e facultativos para analfabetos, maiores de 70 anos e jovens entre 16 e 18 anos.",
+    "passos": [
+      "Os serviços de título de eleitor são feitos pela Justiça Eleitoral (site do TSE ou cartório eleitoral).",
+      "Confira prazos: o cadastro eleitoral fecha alguns meses antes de cada eleição."
+    ],
+    "referencia": {
+      "titulo": "Constituição Federal de 1988, art. 14, §1º",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["DOC06"]
+  },
+  {
+    "id": "DOC05",
+    "tema": "documentos",
+    "subtema": "trabalho",
+    "pergunta": "Como obter a Carteira de Trabalho Digital?",
+    "palavras_chave": ["carteira de trabalho", "ctps", "carteira de trabalho digital", "emprego", "trabalho digital"],
+    "orientacao": "A Carteira de Trabalho Digital é obtida gratuitamente pelo aplicativo (Android/iOS) ou pela internet, a partir do número do CPF. Qualquer pessoa inscrita no CPF pode obtê-la.",
+    "passos": [
+      "Baixe o aplicativo Carteira de Trabalho Digital ou acesse a página do serviço no gov.br.",
+      "Entre com a sua conta gov.br.",
+      "Confira se os seus vínculos de trabalho aparecem corretamente."
+    ],
+    "referencia": {
+      "titulo": "gov.br – Obter a Carteira de Trabalho",
+      "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["DOC06", "DOC02"]
+  },
+  {
+    "id": "DOC06",
+    "tema": "documentos",
+    "subtema": "acesso_digital",
+    "pergunta": "O que é a conta gov.br e quais são os níveis?",
+    "palavras_chave": ["gov.br", "govbr", "conta gov", "conta govbr", "nivel ouro", "nivel prata", "nivel bronze", "login gov", "senha gov"],
+    "orientacao": "A conta gov.br dá acesso a serviços digitais do governo federal. Ela tem três níveis de segurança: bronze, prata e ouro. Quanto maior o nível, mais serviços ficam disponíveis.",
+    "passos": [
+      "Crie a conta no site ou aplicativo gov.br usando o CPF.",
+      "Para subir de nível, use as opções de validação oferecidas (por exemplo, banco credenciado ou validação facial).",
+      "Nunca informe a sua senha a terceiros."
+    ],
+    "referencia": {
+      "titulo": "Governo Digital – Conta gov.br",
+      "url": "https://www.gov.br/governodigital/pt-br/identidade/conta-gov-br"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["DOC02", "DOC05"]
+  },
+  {
+    "id": "CON01",
+    "tema": "consumidor",
+    "subtema": "compras",
+    "pergunta": "Posso desistir de uma compra feita pela internet?",
+    "palavras_chave": ["arrependimento", "desistir", "devolver", "compra pela internet", "compra online", "internet", "7 dias", "sete dias", "cancelar compra", "telefone"],
+    "orientacao": "Em compras feitas fora do estabelecimento comercial (internet, telefone, catálogo), o consumidor pode desistir em até 7 dias, contados da assinatura ou do recebimento do produto, com devolução dos valores pagos (Código de Defesa do Consumidor, art. 49).",
+    "passos": [
+      "Comunique a desistência ao fornecedor por escrito (e-mail, chat ou site) dentro dos 7 dias.",
+      "Guarde comprovantes do pedido, da entrega e da comunicação.",
+      "Se o fornecedor recusar, procure o Procon ou a plataforma consumidor.gov.br."
+    ],
+    "referencia": {
+      "titulo": "Código de Defesa do Consumidor (Lei nº 8.078/1990), art. 49",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["CON04", "CON02"]
+  },
+  {
+    "id": "CON02",
+    "tema": "consumidor",
+    "subtema": "garantia",
+    "pergunta": "Qual o prazo para reclamar de produto com defeito?",
+    "palavras_chave": ["defeito", "garantia", "produto com defeito", "estragou", "quebrou", "vicio", "garantia legal", "30 dias", "90 dias"],
+    "orientacao": "O prazo para reclamar de defeitos aparentes ou de fácil constatação é de 30 dias para produtos e serviços não duráveis e de 90 dias para duráveis (CDC, art. 26). Em defeitos ocultos, o prazo começa quando o defeito aparece.",
+    "passos": [
+      "Registre a reclamação com o fornecedor e guarde o protocolo.",
+      "Guarde nota fiscal, fotos e conversas.",
+      "Se não houver solução, procure o Procon ou o consumidor.gov.br."
+    ],
+    "referencia": {
+      "titulo": "Código de Defesa do Consumidor (Lei nº 8.078/1990), art. 26",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["CON04", "CON01"]
+  },
+  {
+    "id": "CON03",
+    "tema": "consumidor",
+    "subtema": "cobrancas",
+    "pergunta": "Fui cobrado por algo que não devia. Tenho direito à devolução?",
+    "palavras_chave": ["cobranca indevida", "cobrado errado", "cobranca", "devolucao em dobro", "paguei a mais", "cobraram", "conta errada"],
+    "orientacao": "Quem é cobrado em quantia indevida e paga tem direito à devolução em dobro do que pagou em excesso, com correção monetária e juros, salvo engano justificável (CDC, art. 42, parágrafo único).",
+    "passos": [
+      "Junte comprovantes do pagamento e da cobrança.",
+      "Peça a devolução ao fornecedor por escrito.",
+      "Sem solução, procure o Procon ou o consumidor.gov.br."
+    ],
+    "referencia": {
+      "titulo": "Código de Defesa do Consumidor (Lei nº 8.078/1990), art. 42, parágrafo único",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["CON04"]
+  },
+  {
+    "id": "CON04",
+    "tema": "consumidor",
+    "subtema": "reclamacoes",
+    "pergunta": "Onde posso reclamar de uma empresa?",
+    "palavras_chave": ["reclamar", "reclamacao", "procon", "consumidor.gov", "consumidor gov", "denunciar empresa", "empresa nao resolve"],
+    "orientacao": "O consumidor pode registrar reclamações na plataforma consumidor.gov.br, onde as empresas participantes têm até 10 dias para responder (é preciso conta gov.br prata ou ouro), ou procurar o Procon do seu estado ou município.",
+    "passos": [
+      "Tente primeiro o atendimento da empresa e anote o protocolo.",
+      "Registre a reclamação no consumidor.gov.br ou no Procon local.",
+      "Tenha em mãos nota fiscal, contrato e comprovantes."
+    ],
+    "referencia": {
+      "titulo": "Plataforma consumidor.gov.br",
+      "url": "https://www.consumidor.gov.br/pages/principal/?1"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["CON01", "CON02", "CON03"]
+  },
+  {
+    "id": "SOC01",
+    "tema": "direitos_sociais",
+    "subtema": "pessoa_idosa",
+    "pergunta": "Quais são os direitos de prioridade da pessoa idosa?",
+    "palavras_chave": ["idoso", "idosa", "pessoa idosa", "estatuto do idoso", "terceira idade", "60 anos", "80 anos", "prioridade", "prioridade idoso"],
+    "orientacao": "O Estatuto da Pessoa Idosa considera idosa a pessoa com 60 anos ou mais e garante a ela prioridade. Pessoas com mais de 80 anos têm prioridade especial, à frente das demais pessoas idosas.",
+    "passos": [
+      "Ao chegar a um atendimento, informe que tem direito à prioridade e apresente documento com foto.",
+      "Se o direito for negado, procure a ouvidoria do local ou o Disque 100."
+    ],
+    "referencia": {
+      "titulo": "Estatuto da Pessoa Idosa (Lei nº 10.741/2003), arts. 1º e 3º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741compilado.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["SOC02", "SOC04", "COM03"]
+  },
+  {
+    "id": "SOC02",
+    "tema": "direitos_sociais",
+    "subtema": "pessoa_idosa",
+    "pergunta": "Idoso tem direito a ônibus de graça?",
+    "palavras_chave": ["onibus gratis", "transporte gratuito", "gratuidade transporte", "passe livre idoso", "65 anos", "onibus", "transporte publico"],
+    "orientacao": "Pessoas com mais de 65 anos têm gratuidade nos transportes coletivos públicos urbanos e semiurbanos, bastando apresentar documento de identidade (Estatuto da Pessoa Idosa, art. 39). Para pessoas de 60 a 64 anos, a regra depende da lei local.",
+    "passos": [
+      "Apresente documento com foto ao embarcar.",
+      "Confira na prefeitura as regras para 60 a 64 anos e para transporte intermunicipal."
+    ],
+    "referencia": {
+      "titulo": "Estatuto da Pessoa Idosa (Lei nº 10.741/2003), art. 39",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741compilado.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["SOC01"]
+  },
+  {
+    "id": "SOC03",
+    "tema": "direitos_sociais",
+    "subtema": "dados_pessoais",
+    "pergunta": "Quais são meus direitos sobre meus dados pessoais (LGPD)?",
+    "palavras_chave": ["lgpd", "dados pessoais", "meus dados", "privacidade", "apagar dados", "excluir dados", "protecao de dados", "corrigir dados"],
+    "orientacao": "A Lei Geral de Proteção de Dados (LGPD) garante ao titular, entre outros direitos, confirmar se seus dados são tratados, acessá-los, corrigir dados incompletos ou desatualizados e pedir a eliminação de dados em certos casos (art. 18).",
+    "passos": [
+      "Faça o pedido ao controlador (a empresa ou órgão) pelo canal de privacidade ou encarregado de dados.",
+      "Guarde o protocolo do pedido."
+    ],
+    "referencia": {
+      "titulo": "Lei Geral de Proteção de Dados (Lei nº 13.709/2018), art. 18",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["CON04"]
+  },
+  {
+    "id": "SOC04",
+    "tema": "direitos_sociais",
+    "subtema": "prioridade",
+    "pergunta": "Quem tem direito a atendimento prioritário?",
+    "palavras_chave": ["atendimento prioritario", "prioridade", "fila preferencial", "gestante", "lactante", "crianca de colo", "pessoa com deficiencia", "pcd", "fila"],
+    "orientacao": "A Lei nº 10.048/2000 garante atendimento prioritário a pessoas com deficiência, pessoas com transtorno do espectro autista, pessoas idosas (60+), gestantes, lactantes, pessoas com criança de colo, pessoas com mobilidade reduzida, pessoas obesas e doadores de sangue, entre outros grupos previstos na lei.",
+    "passos": [
+      "Informe no atendimento que tem direito à prioridade.",
+      "Se negado, registre reclamação na ouvidoria do local."
+    ],
+    "referencia": {
+      "titulo": "Lei nº 10.048/2000, art. 1º (redação atualizada)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l10048.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["SOC01"]
+  },
+  {
+    "id": "COM01",
+    "tema": "servicos_comunitarios",
+    "subtema": "emergencia",
+    "pergunta": "Qual número ligar para ambulância (SAMU)?",
+    "palavras_chave": ["samu", "192", "ambulancia", "emergencia medica", "urgencia", "socorro", "passando mal"],
+    "orientacao": "Em urgência ou emergência médica, ligue 192 para o SAMU. O serviço é gratuito e funciona 24 horas.",
+    "passos": [
+      "Ligue 192 e informe endereço, o que aconteceu e o estado da pessoa.",
+      "Siga as orientações do atendente até a chegada da equipe."
+    ],
+    "referencia": {
+      "titulo": "Ministério da Saúde – SAMU 192",
+      "url": "https://www.gov.br/saude/pt-br/composicao/saes/samu-192"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["COM02", "COM05"]
+  },
+  {
+    "id": "COM02",
+    "tema": "servicos_comunitarios",
+    "subtema": "saude",
+    "pergunta": "Quem pode usar o SUS?",
+    "palavras_chave": ["sus", "saude publica", "posto de saude", "atendimento medico gratuito", "ubs", "hospital publico", "medico de graca"],
+    "orientacao": "A Lei Orgânica da Saúde (Lei nº 8.080/1990) define a saúde como direito de todos, com acesso universal e igualitário aos serviços do SUS.",
+    "passos": [
+      "Procure a Unidade Básica de Saúde (UBS) mais próxima para atendimento comum.",
+      "Em emergências, ligue 192 (SAMU)."
+    ],
+    "referencia": {
+      "titulo": "Lei nº 8.080/1990, arts. 2º e 7º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": false,
+    "relacionados": ["COM01", "COM03"]
+  },
+  {
+    "id": "COM03",
+    "tema": "servicos_comunitarios",
+    "subtema": "assistencia_social",
+    "pergunta": "Como me inscrever no Cadastro Único (CadÚnico)?",
+    "palavras_chave": ["cadastro unico", "cadunico", "cad unico", "bolsa familia", "beneficio social", "programa social", "assistencia social", "cras"],
+    "orientacao": "O Cadastro Único reúne informações de famílias de baixa renda e é usado para acesso a programas sociais. A inscrição é feita pessoalmente, em um posto de atendimento na cidade onde a família mora, como o CRAS (Centro de Referência de Assistência Social).",
+    "passos": [
+      "Procure a prefeitura para saber qual é o posto de cadastramento.",
+      "Leve documentos de todas as pessoas da família (o responsável familiar deve levar o CPF, de preferência, ou o título de eleitor).",
+      "Mantenha os dados atualizados."
+    ],
+    "referencia": {
+      "titulo": "gov.br – Inscrever-se no Cadastro Único para Programas Sociais do Governo Federal",
+      "url": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["COM02", "SOC01"]
+  },
+  {
+    "id": "COM04",
+    "tema": "servicos_comunitarios",
+    "subtema": "denuncias",
+    "pergunta": "Onde denunciar violação de direitos humanos ou violência contra a mulher?",
+    "palavras_chave": ["disque 100", "ligue 180", "denuncia", "denunciar", "violencia", "violencia contra mulher", "direitos humanos", "maus tratos", "abuso"],
+    "orientacao": "A Ouvidoria Nacional de Direitos Humanos recebe denúncias pelo Disque 100 (violações de direitos humanos) e pelo Ligue 180 (violência contra a mulher). Em perigo imediato, ligue 190 (Polícia Militar).",
+    "passos": [
+      "Ligue 100 ou 180; a denúncia pode ser anônima.",
+      "Em situação de risco imediato, ligue 190."
+    ],
+    "referencia": {
+      "titulo": "Ministério dos Direitos Humanos e da Cidadania – Ouvidoria Nacional de Direitos Humanos",
+      "url": "https://www.gov.br/mdh/pt-br/ondh"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["SOC01", "COM01"]
+  },
+  {
+    "id": "COM05",
+    "tema": "servicos_comunitarios",
+    "subtema": "defesa_civil",
+    "pergunta": "Como receber alertas da Defesa Civil no celular?",
+    "palavras_chave": ["defesa civil", "alerta", "alertas", "40199", "enchente", "chuva forte", "desastre", "sms"],
+    "orientacao": "Para receber alertas de desastres por SMS, envie o CEP da sua região para o número 40199. O serviço é da Defesa Civil.",
+    "passos": [
+      "Envie um SMS com o seu CEP para 40199.",
+      "Siga as orientações da Defesa Civil local quando receber um alerta."
+    ],
+    "referencia": {
+      "titulo": "Ministério da Integração e do Desenvolvimento Regional – Alertas de desastres",
+      "url": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/alertas-de-desastres-1"
+    },
+    "data_verificacao": "2026-11-22",
+    "requer_confirmacao": true,
+    "relacionados": ["COM01"]
+  }
+]

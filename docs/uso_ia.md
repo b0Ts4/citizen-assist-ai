@@ -2,23 +2,23 @@
 
 O enunciado permite usar IA, desde que a equipe **compreenda, teste e justifique** a solução e registre aqui
 o uso e a validação crítica. Este arquivo descreve com honestidade o que foi feito com apoio de IA e o que
-foi feito pela equipe.
+foi feito pelo autor. O projeto foi desenvolvido individualmente (equipe de 1 pessoa).
 
 ## Divisão do trabalho
 
-| Parte do projeto | Feito com apoio de IA (Claude, Anthropic) | Feito pela equipe |
+| Parte do projeto | Feito com apoio de IA (Claude, Anthropic) | Feito pelo autor |
 |---|---|---|
 | Requisitos e escopo | Organização dos requisitos do enunciado em um plano | Leitura do enunciado, definição do que entregar, aprovação das decisões |
 | Base de conhecimento (19 orientações) | Rascunho dos textos e primeira busca das fontes | _[descrever: revisão das orientações, novas orientações acrescentadas, fontes conferidas no navegador]_ |
 | Código Python (`src/`) | Rascunho da arquitetura e do código | _[descrever: leitura e entendimento de cada módulo, alterações feitas pela equipe]_ |
 | Busca versão 2 | Proposta de pesos diferentes para corrigir T13 e T21 | _[descrever: correções da equipe, ex.: palavras-chave de CON01/CON03 para T33/T29]_ |
 | Perguntas de teste | Rascunho das perguntas T01–T34 | _[descrever: perguntas criadas pela equipe]_ |
-| Modelos de prompt A e B | Rascunho das instruções e da comparação automática | _[descrever: revisão / escolha do modelo padrão]_ |
+| Modelos de prompt A e B | Rascunho das instruções e da comparação automática | Revisão das instruções dos Modelos A e B |
 | Teste de usabilidade | Roteiro de tarefas | Aplicação do teste com usuário externo e registro em `usabilidade.md` |
 | Vídeo | Roteiro sugerido | Gravação, narração e publicação |
 | Publicação | Criação do repositório no GitHub, a pedido da equipe | Revisão final do repositório e envio no FIAP ON |
 
-> Preencha os campos _[descrever]_ só com o que a equipe fez de fato. Apague as linhas que não se aplicarem.
+> Preencha os campos _[descrever]_ só com o que o autor fez de fato. Apague as linhas que não se aplicarem.
 
 **O protótipo em si não usa IA em tempo de execução.** Todas as respostas vêm da base verificada em JSON,
 por regras determinísticas. Isso foi uma escolha: evita que um modelo invente prazos, valores ou requisitos.

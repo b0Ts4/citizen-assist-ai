@@ -303,7 +303,8 @@ mudar o código. Depois disso escrevemos 3 perguntas de validação novas (T22�
 5. **Acessibilidade:** leitura em voz alta e versão web com fonte ampliável.
 
 **Limitações da avaliação:** a maioria das perguntas foi escrita pela equipe. São só 34 perguntas. O
-teste de usabilidade com usuário externo ainda precisa ser feito (roteiro pronto). O critério de acerto
+teste de usabilidade documentado é uma verificação do roteiro feita por quem conhece o sistema; um teste
+informal com uma usuária externa foi feito, mas não foi registrado. O critério de acerto
 verifica o registro escolhido, não a qualidade do texto. O tempo medido não inclui a leitura da resposta
 pela pessoa.
 

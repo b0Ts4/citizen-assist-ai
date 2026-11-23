@@ -14,10 +14,10 @@ registramos: concluiu (sim/não), número de passos (escolhas ou digitações), 
 | U5 | Pressionar Enter sem digitar nada e voltar a usar o sistema | Enter → ler a mensagem → nova opção | 2 |
 | U6 | Trocar para o modelo de resposta curto | 4 | 1 |
 
-## Execução 1: roteiro executado pela equipe (22/11/2026)
+## Verificação do roteiro (22/11/2026)
 
-O roteiro foi executado com entradas digitadas no terminal para confirmar que cada caminho funciona e
-quantos passos exige.
+O roteiro foi executado com entradas automatizadas no terminal, para confirmar que cada caminho funciona
+e quantos passos exige.
 
 | # | Concluiu | Passos usados | Observação |
 |---|---|---|---|
@@ -29,24 +29,14 @@ quantos passos exige.
 | U6 | Sim | 1 | A opção 4 alterna entre os modelos. |
 
 **Indicador:** 6 de 6 tarefas concluídas (100%), em média 2,0 passos por tarefa, sempre igual ao caminho
-mínimo. Esse resultado tem viés porque a equipe conhece o sistema.
+mínimo. Esse resultado tem viés: quem executou conhece o sistema e o caminho ideal.
 
-## Execução 2: usuário de teste (preencher)
+## Teste com usuário externo
 
-> Peça a alguém de fora da equipe (familiar, colega) para fazer as tarefas U1–U6 sem ajuda. Não registre
-> nome nem dados pessoais, só um identificador (ex.: "Participante 1, 50+ anos, pouca familiaridade com
-> terminal").
-
-| # | Concluiu | Passos usados | Tempo | Dificuldades observadas |
-|---|---|---|---|---|
-| U1 | | | | |
-| U2 | | | | |
-| U3 | | | | |
-| U4 | | | | |
-| U5 | | | | |
-| U6 | | | | |
-
-Nota de facilidade dada pelo participante (1 = muito difícil, 5 = muito fácil): ___
+Um teste informal com uma usuária externa foi feito durante o desenvolvimento, mas os resultados não foram
+registrados na hora e a participante não estava mais disponível para repetir. Por isso eles **não**
+constam aqui, e o indicador acima não representa um usuário que não conhece o sistema. Repetir as tarefas
+U1–U6 com pessoas de fora, registrando passos, tempo e dificuldades, é a primeira melhoria da avaliação.
 
 ## Dificuldades e limitações já percebidas
 

@@ -14,7 +14,7 @@ foi feito pelo autor. O projeto foi desenvolvido individualmente (equipe de 1 pe
 | Busca versão 2 | Proposta de pesos diferentes para corrigir T13 e T21 | _[descrever: correções da equipe, ex.: palavras-chave de CON01/CON03 para T33/T29]_ |
 | Perguntas de teste | Rascunho das perguntas T01–T34 | _[descrever: perguntas criadas pela equipe]_ |
 | Modelos de prompt A e B | Rascunho das instruções e da comparação automática | Revisão das instruções dos Modelos A e B |
-| Teste de usabilidade | Roteiro de tarefas | Aplicação do teste com usuário externo e registro em `usabilidade.md` |
+| Teste de usabilidade | Roteiro de tarefas e execução automatizada da verificação do roteiro | Teste informal com uma usuária externa (resultados não registrados) |
 | Vídeo | Roteiro sugerido e gravação automatizada da tela (a IA executou a demonstração no VS Code e no terminal) | Narração, edição e publicação |
 | Publicação | Criação do repositório no GitHub, a pedido da equipe | Revisão final do repositório e envio no FIAP ON |
 

@@ -53,7 +53,7 @@ citizen-assist-ai/
 │   ├── respostas.py             # modelos de resposta A e B, mensagens de limite
 │   └── avaliacao.py             # executa os testes e gera os indicadores
 ├── tests/
-│   └── test_sistema.py          # 14 testes unitários
+│   └── test_sistema.py          # 13 testes unitários
 └── docs/
     ├── fontes.md                # fonte e conferência de cada registro
     ├── prompts.md               # modelos de instrução e comparação

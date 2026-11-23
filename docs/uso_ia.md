@@ -9,16 +9,14 @@ foi feito pelo autor. O projeto foi desenvolvido individualmente (equipe de 1 pe
 | Parte do projeto | Feito com apoio de IA (Claude, Anthropic) | Feito pelo autor |
 |---|---|---|
 | Requisitos e escopo | Organização dos requisitos do enunciado em um plano | Leitura do enunciado, definição do que entregar, aprovação das decisões |
-| Base de conhecimento (19 orientações) | Rascunho dos textos e primeira busca das fontes | _[descrever: revisão das orientações, novas orientações acrescentadas, fontes conferidas no navegador]_ |
-| Código Python (`src/`) | Rascunho da arquitetura e do código | _[descrever: leitura e entendimento de cada módulo, alterações feitas pela equipe]_ |
-| Busca versão 2 | Proposta de pesos diferentes para corrigir T13 e T21 | _[descrever: correções da equipe, ex.: palavras-chave de CON01/CON03 para T33/T29]_ |
-| Perguntas de teste | Rascunho das perguntas T01–T34 | _[descrever: perguntas criadas pela equipe]_ |
+| Base de conhecimento (19 orientações) | Rascunho dos textos e primeira busca das fontes | Conferência das fontes das orientações |
+| Código Python (`src/`) | Rascunho da arquitetura e do código | Verificação do código e entendimento do funcionamento |
+| Busca versão 2 | Proposta de pesos diferentes para corrigir T13 e T21 | Testes do comportamento da busca, repetidos várias vezes |
+| Perguntas de teste | Rascunho das perguntas T01–T34 | Execução dos testes e conferência dos resultados |
 | Modelos de prompt A e B | Rascunho das instruções e da comparação automática | Revisão das instruções dos Modelos A e B |
 | Teste de usabilidade | Roteiro de tarefas e execução automatizada da verificação do roteiro | Teste informal com uma usuária externa (resultados não registrados) |
 | Vídeo | Roteiro sugerido e gravação automatizada da tela (a IA executou a demonstração no VS Code e no terminal) | Narração, edição e publicação |
 | Publicação | Criação do repositório no GitHub, a pedido da equipe | Revisão final do repositório e envio no FIAP ON |
-
-> Preencha os campos _[descrever]_ só com o que o autor fez de fato. Apague as linhas que não se aplicarem.
 
 **O protótipo em si não usa IA em tempo de execução.** Todas as respostas vêm da base verificada em JSON,
 por regras determinísticas. Isso foi uma escolha: evita que um modelo invente prazos, valores ou requisitos.
@@ -35,13 +33,13 @@ por regras determinísticas. Isso foi uma escolha: evita que um modelo invente p
      foi trocada pela página específica de alertas.
    - Duas orientações (CadÚnico e consumidor.gov.br) tiveram o texto ajustado ao que a fonte diz de fato
      ("CPF, de preferência, ou título de eleitor"; "até 10 dias para responder").
-2. **Testes:** o comportamento foi medido com 34 perguntas e 14 testes unitários. Os erros da versão 1
+2. **Testes:** o comportamento foi medido com 34 perguntas e 13 testes unitários. Os erros da versão 1
    (T13 e T21) foram registrados ([`resultados_testes_v1.md`](resultados_testes_v1.md)) e corrigidos
    com uma regra geral (pesos), não com exceções para cada pergunta. A correção causou uma regressão (T16)
    que também foi registrada. Depois disso foram criadas perguntas **exploratórias** só para procurar
    falhas. Os erros encontrados (T28, T29, T33) foram mantidos no relatório.
-3. **Entendimento:** _[descrever como a equipe estudou o código: ex.: cada integrante explicou um módulo,
-   rodou o sistema e os testes, alterou algo e viu o efeito]_.
+3. **Entendimento:** o autor conferiu as fontes, verificou o código, entendeu o funcionamento do sistema
+   e o testou diversas vezes, rodando o assistente, os testes unitários e a avaliação.
 
 ## Limites do uso de IA
 

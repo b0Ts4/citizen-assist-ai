@@ -14,6 +14,8 @@ Assistente textual de orientação cidadã, do desafio **CitizenTech**.
 |---|---|
 | Arthur Barbosa de Morais | RM573731 |
 
+**Vídeo de apresentação:** https://youtu.be/ujT7P84e2PA
+
 ---
 
 ## 1. Problema, público e temas

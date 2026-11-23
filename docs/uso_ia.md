@@ -15,7 +15,7 @@ foi feito pelo autor. O projeto foi desenvolvido individualmente (equipe de 1 pe
 | Perguntas de teste | Rascunho das perguntas T01–T34 | _[descrever: perguntas criadas pela equipe]_ |
 | Modelos de prompt A e B | Rascunho das instruções e da comparação automática | Revisão das instruções dos Modelos A e B |
 | Teste de usabilidade | Roteiro de tarefas | Aplicação do teste com usuário externo e registro em `usabilidade.md` |
-| Vídeo | Roteiro sugerido | Gravação, narração e publicação |
+| Vídeo | Roteiro sugerido e gravação automatizada da tela (a IA executou a demonstração no VS Code e no terminal) | Narração, edição e publicação |
 | Publicação | Criação do repositório no GitHub, a pedido da equipe | Revisão final do repositório e envio no FIAP ON |
 
 > Preencha os campos _[descrever]_ só com o que o autor fez de fato. Apague as linhas que não se aplicarem.
